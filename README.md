@@ -30,8 +30,8 @@ Se você quiser baixar e ver os testes rodando na sua máquina, siga os passos a
 **2. Entre na pasta do projeto:** 
 ```cd bootcamp-qa-turbo```
 
-3. Instale as dependências:
+**3. Instale as dependências:**
 ```npm install```
 
-4. Abra o Cypress: 
+**4. Abra o Cypress:** 
 ```npx cypress open```

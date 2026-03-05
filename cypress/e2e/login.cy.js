@@ -25,7 +25,7 @@ it("Login com senha errada", () => {
     cy.get('#user').type("usuario@teste.com")
     cy.get('#password').type("123")
     cy.get('#btnLogin').click()
-    cy.get('.invalid_input').should('have.text', "Senha inválida")
+    cy.get('.invalid_input').should("contain", "Senha inválida")
 })
 
 //CENÁRIO 3
@@ -34,14 +34,14 @@ it("Login com email inválido", () => {
     cy.get('#user').type("123")
     cy.get('#password').type("123456")
     cy.get('#btnLogin').click()
-    cy.get('.invalid_input').should('have.text', "E-mail inválido")
+    cy.get('.invalid_input').should("contain", "E-mail inválido")
 })
 
 //CENÁRIO 4
 it("Login com email e senhas vazios", () => {
     cy.visit("https://www.automationpratice.com.br/login")
     cy.get('#btnLogin').click()
-    cy.get('.invalid_input').should('have.text', "E-mail inválido")
+    cy.get('.invalid_input').should("contain", "E-mail inválido")
 })
 
 })

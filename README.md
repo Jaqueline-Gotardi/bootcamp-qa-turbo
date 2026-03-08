@@ -1,37 +1,39 @@
-# 🚀 Bootcamp QA Turbo - Desafio Cypress (Dia 1)
+# 🚀 Bootcamp QA Turbo - Qazando
+> Uma imersão intensa em automação de testes para Web, API e Mobile.
 
-Oi! Este é o meu repositório para o **Bootcamp QA Turbo**, um evento intenso de 3 dias (03, 04 e 05 de março) realizado pela **QAzando**. 
+Este repositório contém os projetos desenvolvidos durante os 3 dias do **QA Turbo**, onde explorei as ferramentas mais modernas do mercado de Quality Assurance para garantir a entrega de software de alta performance.
 
-Estou muito empolgada com o que estou aprendendo! Este projeto marca o meu primeiro contato real com automação web utilizando **Cypress**.
+---
 
-## 🎯 O Objetivo
-Nesta primeira aula, o foco foi entender como automatizar cenários de teste em uma tela de login, garantindo que o sistema se comporte corretamente tanto em fluxos de sucesso quanto em casos de erro.
+## 📜 Certificação
+![Certificado do Bootcamp](./image/certificado-Jaqueline%20Ribeiro%20Gotardi.jpg)
+*Certificado de conclusão do treinamento ministrado por Herbert Soares e Eduardo Finotti.*
 
-## 🧪 Cenários de Teste Automatizados
-No arquivo `login.cy.js`, implementei 4 cenários fundamentais para validar a qualidade da página:
+---
 
-1.  **Login com sucesso:** Verifica se o usuário consegue acessar o sistema com dados válidos.
-2.  **Login com senha errada:** Valida se o sistema exibe a mensagem de "Senha inválida" corretamente.
-3.  **Login com e-mail inválido:** Testa a validação do formato do campo de e-mail.
-4.  **Campos vazios:** Garante que o sistema não permita o login sem o preenchimento das credenciais.
+## 🛠️ O que foi desenvolvido?
 
-## 🛠️ Tecnologias Utilizadas
-* **Cypress:** Framework de automação de testes.
-* **JavaScript:** Linguagem utilizada para escrever os scripts.
-* **Node.js:** Ambiente de execução.
+### 🌐 Dia 1: Automação Web (Cypress)
+* **Foco:** Testes End-to-End (E2E) em interfaces web.
+* **Ferramenta:** Cypress.
+* **Habilidades:** Mapeamento de elementos, validação de fluxos de login e boas práticas de estruturação de testes.
 
-## 🚀 Como rodar este projeto?
+### 🔌 Dia 2: Automação de API (Cypress)
+* **Foco:** Garantir que o "motor" do software esteja funcionando.
+* **Ferramenta:** Cypress + Postman.
+* **Habilidades:** Validação de Status Codes (200, 201, 400), métodos (GET, POST, DELETE) e integração contínua.
 
-Se você quiser baixar e ver os testes rodando na sua máquina, siga os passos abaixo:
+### 📱 Dia 3: Automação Mobile (Maestro)
+* **Foco:** Testes em aplicativos reais Android.
+* **Ferramenta:** Maestro Studio.
+* **Habilidades:** Automação de fluxos mobile e inspeção de elementos em emuladores Android.
 
-**1. Clone o repositório:**
- ```git clone [https://github.com/Jaqueline-Gotardi/bootcamp-qa-turbo.git](https://github.com/Jaqueline-Gotardi/bootcamp-qa-turbo.git)```
+---
 
-**2. Entre na pasta do projeto:** 
-```cd bootcamp-qa-turbo```
+## 💻 Meu Ambiente de Trabalho
+* **Sistema Operacional:** Linux (Ubuntu)
+* **Ferramentas:** VS Code, Android Studio, Maestro, Cypress e Postman.
 
-**3. Instale as dependências:**
-```npm install```
+---
 
-**4. Abra o Cypress:** 
-```npx cypress open```
+Praticado com mto ❤️ por Qualidade de Software!
